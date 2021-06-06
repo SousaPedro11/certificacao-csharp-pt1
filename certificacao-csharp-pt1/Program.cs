@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using certificacao_csharp_pt1.Aula1.Tipos_valor;
+using certificacao_csharp_pt1.Aula1;
+using certificacao_csharp_pt1.Aula1.Enums;
+using Decimal = certificacao_csharp_pt1.Aula1.Decimal;
 
 namespace certificacao_csharp_pt1
 {
@@ -10,7 +12,6 @@ namespace certificacao_csharp_pt1
 
         private static void Main(string[] args)
         {
-            IAulaItem itemSelecionado;
             _menuItems = GetMenuItems();
 
             while (true)
@@ -24,12 +25,12 @@ namespace certificacao_csharp_pt1
 
                 if (valorOpcao > _menuItems.Count) break;
 
-                itemSelecionado = Executar(valorOpcao);
+                Executar(valorOpcao);
                 Console.ReadKey();
             }
         }
 
-        private static IAulaItem Executar(int valorOpcao)
+        private static void Executar(int valorOpcao)
         {
             IAulaItem itemSelecionado;
             var menuItem = _menuItems[valorOpcao - 1];
@@ -44,8 +45,6 @@ namespace certificacao_csharp_pt1
             itemSelecionado?.Executar();
             Console.WriteLine();
             Console.WriteLine("Tecle algo para continuar...");
-
-            return itemSelecionado;
         }
 
         private static void ImprimeMenuItems(IList<MenuItem> menuItems)
@@ -62,13 +61,13 @@ namespace certificacao_csharp_pt1
         {
             return new List<MenuItem>
             {
-                new("Tipos de Valor", typeof(TipodDeValor))
-                // new MenuItem("Tipos Inteiros", typeof(TiposInteiros)),
-                // new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
-                // new MenuItem("Decimal", typeof(Decimal)),
-                // new MenuItem("Booleanos", typeof(Booleanos)),
-                // new MenuItem("Estruturas", typeof(Estruturas)),
-                // new MenuItem("Enumeracoes", typeof(Enumeracoes))
+                new("Tipos de Valor", typeof(TipodDeValor)),
+                new MenuItem("Tipos Inteiros", typeof(TiposInteiros)),
+                new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
+                new MenuItem("Decimal", typeof(Decimal)),
+                new MenuItem("Booleanos", typeof(Booleanos)),
+                new MenuItem("Estruturas", typeof(Estruturas)),
+                new MenuItem("Enumeracoes", typeof(Enumeracoes))
             };
         }
     }
