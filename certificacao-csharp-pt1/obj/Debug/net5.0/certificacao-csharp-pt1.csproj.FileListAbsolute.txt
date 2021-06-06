@@ -1,0 +1,16 @@
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/certificacao-csharp-pt1
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/certificacao-csharp-pt1.deps.json
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/certificacao-csharp-pt1.runtimeconfig.json
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/certificacao-csharp-pt1.runtimeconfig.dev.json
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/certificacao-csharp-pt1.dll
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/ref/certificacao-csharp-pt1.dll
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/bin/Debug/net5.0/certificacao-csharp-pt1.pdb
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.csprojAssemblyReference.cache
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.AssemblyInfoInputs.cache
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.AssemblyInfo.cs
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.csproj.CoreCompileInputs.cache
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.dll
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/ref/certificacao-csharp-pt1.dll
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.pdb
+/mnt/sdb2/Cursos/Alura/certificacao-csharp-pt1/certificacao-csharp-pt1/obj/Debug/net5.0/certificacao-csharp-pt1.genruntimeconfig.cache
